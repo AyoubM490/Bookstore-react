@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navBarWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navLink {
+  margin-right: 2rem;
+}
+
+.navLink:last-child {
+  margin-right: 0;
+}
