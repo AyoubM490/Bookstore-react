@@ -27,8 +27,7 @@ const Navbar = () => {
               <Link
                 data-testid={link.id}
                 to={link.path}
-                activeClassName="active-link"
-                exact
+                exact={`${true}`}
                 className="link"
               >
                 {link.text}
