@@ -20,5 +20,8 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
-  "ignorePatterns": ["dist/", "build/"]
+  "ignorePatterns": [
+    "dist/",
+    "build/"
+  ]
 }
