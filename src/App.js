@@ -6,22 +6,20 @@ import Categories from './components/Categories';
 import BookContainer from './components/BookContainer';
 import store from './Redux/ConfigureStore';
 
-function App() {
-  return (
-    <Provider store={store}>
-      <div className="app">
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <BookContainer />
-          </Route>
-          <Route path="/categories">
-            <Categories />
-          </Route>
-        </Switch>
-      </div>
-    </Provider>
-  );
-}
+const App = () => (
+  <Provider store={store}>
+    <div className="app">
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <BookContainer />
+        </Route>
+        <Route path="/categories">
+          <Categories />
+        </Route>
+      </Switch>
+    </div>
+  </Provider>
+);
 
 export default App;
