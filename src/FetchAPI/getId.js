@@ -1,5 +1,4 @@
-const baseUrl =
-  'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
+const baseUrl = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 // const appId = 'DXx22TZCYfuKQX6UV8m5';
 
 const getId = async () => {
