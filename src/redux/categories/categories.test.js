@@ -1,5 +1,7 @@
 import { createStore } from '@reduxjs/toolkit';
-import categoriesReducer, { checkStatus } from './categories';
+import categoriesReducer, {
+  checkStatus,
+} from './categories';
 
 describe('categoriesReducer', () => {
   it('should return an empty array initially', () => {
