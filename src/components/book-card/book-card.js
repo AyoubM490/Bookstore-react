@@ -8,7 +8,7 @@ export default function BookCard(props) {
     id, percent, chapter, genre, title, author,
   } = props;
   return (
-    <section className="book-card flex justify-between rounded-sm p-12 mx-8 my-4 shadow-md">
+    <section className="">
       <BookInfo
         id={id}
         genre={genre}
