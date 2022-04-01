@@ -2,13 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BookInfo from '../book-info/book-info';
 import BookProgress from '../book-progress/book-progress';
+import './book-card.css';
 
 export default function BookCard(props) {
   const {
     id, percent, chapter, genre, title, author,
   } = props;
   return (
-    <section className="book-card flex justify-between rounded-sm p-12 mx-8 my-4 shadow-md">
+    <section className="book-card fix-margin flex justify-between rounded-sm p-12 mx-8 my-4 shadow-md">
       <BookInfo
         id={id}
         genre={genre}
