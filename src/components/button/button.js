@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './buttonColor.css';
 
 export default function Button({ ...props }) {
   return (
     <button
-      className={`text-white bg-sky-700 rounded w-fit ${props.twClasses}`}
+      className={`text-white azure rounded w-fit ${props.twClasses}`}
       type={props.type === 'submit' ? 'submit' : 'button'}
       onClick={props.handleClick}
     >
